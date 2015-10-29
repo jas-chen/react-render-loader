@@ -2,7 +2,8 @@ import React from 'react';
 
 class HelloClass extends React.Component {
   render() {
-    return <h1>Hello Class</h1>
+    const name = this.props.name ? this.props.name : 'Class';
+    return <h1>Hello {name}</h1>
   }
 }
 
