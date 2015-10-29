@@ -10,13 +10,17 @@ module.exports = function(content) {
   var query = loaderUtils.parseQuery(this.query);
 	var fn = query.static ? 'renderToStaticMarkup' : 'renderToString';
 
-  var classOrElement = this.exec(content, this.resource);
+  var classOrElement = this.exec(
+    'require("babel-core/register");' + content,
+    this.resource
+  );
+
   var element = typeof classOrElement === 'function' ?
     React.createElement(classOrElement)
     : classOrElement;
 
   var html = ReactServer[fn](element);
   var result = "module.exports = '" + html + "';";
-  
+
   return result;
 };
