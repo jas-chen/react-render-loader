@@ -31,6 +31,4 @@ document.getElementById('root').innerHTML = AppHtml;
 
 ```
 
-[Examples](https://github.com/jas-chen/react-render-loader/tree/master/examples)
-
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+This loader supports React class, React element and stateless functional components, see [basic example](https://github.com/jas-chen/react-render-loader/tree/master/examples/basic) for demo.
