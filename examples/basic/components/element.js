@@ -6,4 +6,6 @@ class HelloClass extends React.Component {
   }
 }
 
-export default <HelloClass name="Element" /> ;
+const element = <HelloClass name="Element" />;
+
+export default element;
