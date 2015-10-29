@@ -8,7 +8,7 @@ const array = [
   [
     <Hello name="Sub array1" />,
     <Hello name="Sub array2" />,
-    <Hello name="Sub array" />
+    <Hello name="Sub array3" />
   ]
 ];
 
