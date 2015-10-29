@@ -4,6 +4,8 @@
 
 A webpack loader that renders React components to HTML strings.
 
+> Warning: This loader executes your module in a Node context, use browser api will cause errors.
+
 ## Usage
 ```javascript
 // App.js
