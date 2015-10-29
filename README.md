@@ -33,4 +33,11 @@ document.getElementById('root').innerHTML = AppHtml;
 
 ```
 
-This loader supports React class, React element and stateless functional components, see [basic example](https://github.com/jas-chen/react-render-loader/tree/master/examples/basic) for demo.
+This loader supports
+- React class
+- React element
+- Stateless functional components
+- Array of above
+- Array of above (sub arrays)
+
+See [basic example](https://github.com/jas-chen/react-render-loader/tree/master/examples/basic) for demo.

@@ -1,6 +1,6 @@
 {
   "name": "react-render-loader",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A webpack loader that renders React components to HTML strings.",
   "main": "index.js",
   "scripts": {
